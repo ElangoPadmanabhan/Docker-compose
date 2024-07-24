@@ -1,1 +1,8 @@
+version: '3.0'
+
 services:
+  docker-compose:
+    image: c3e435644fa3
+    ports:
+      - "8090:8080"
+    restart: always
